@@ -1,4 +1,4 @@
-#https://www.geeksforgeeks.org/counting-inversions/
+
 def solution(arr, n):
 	arr_temp = [0]*n #temporary array to store sorted array
 	return mergeSort(arr, arr_temp, 0, n-1)
